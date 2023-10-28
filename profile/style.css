@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Gabarito', cursive;
+    margin: 0;
+    padding: 0;
+}
+* {
+    font-family: 'Gabarito', cursive;
+}
+
+.title {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    gap: 5px;
+}
+
+#input {
+    width: 230px;
+    height: 25px;
+    max-width: 100%;
+    margin: 0 5px;
+    padding: 10px 5px;
+    border: 1px solid grey;
+    outline: none;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+#input:focus::placeholder {
+    visibility: hidden;
+}
+
+.search-btn {
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    padding: 5px 20px;
+    box-shadow: 0 0 10px #d3d3d3;
+    cursor: pointer;
+    color: #000;
+    background: linear-gradient(to right, #9f9f9f, #ffffff);
+    transition: all .3s linear;
+    
+}
+.search-btn:hover{
+    background: linear-gradient(to right, #ffffff,#9f9f9f);
+    transition: all .3s linear;
+}
+
+.search-btn:active{
+    transform: translateY(2px);
+}
+
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 320px;
+    height: 400px;
+    max-width: 100%;
+    margin: 0 5px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.header {
+    text-align: center;
+}
+
+.header>img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #afafaf;
+    object-fit: cover;
+    margin-top: 10px;
+}
+
+.header>h2 {
+    margin: 10px 0;
+}
+
+.social-data {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.data>p {
+    margin: 5px 0;
+}
+
+.data>p:first-child {
+    color: #505050;
+
+}
+
+.data>p:last-child {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+
+#des {
+    padding: 10px 5px;
+}
+
+.github-btn {
+    padding: 15px 30px;
+    background: linear-gradient(to right, #b2b2b2, #ffffff);
+    color: #000;
+    border: none;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 0 5px #353535;
+    margin-top: 15px;
+}
